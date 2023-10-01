@@ -1,0 +1,42 @@
+// COLOR VARIABLES
+
+$color-primary: #c20202;
+$color-primary-dark: #880101;
+$color-primary-light: #d44e4e;
+
+$color-secondary: #36454f;
+$color-secondary-dark: #263037;
+$color-secondary-light: #727d84;
+
+$color-black: #000;
+$color-white: #fff;
+
+// FONT VARIABLES
+
+$font-primary: "Poppins", sans-serif;
+
+// RESPONSIVE BREAKPOINT VARIABLES
+
+// GLOBAL RESET
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 10px/16px = 62.5% (Browser base px size is 16px, want to set page font size to 10px so we can use REM.
+}
+
+body {
+  font-family: $font-primary;
+  color: $color-primary-dark;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+}
